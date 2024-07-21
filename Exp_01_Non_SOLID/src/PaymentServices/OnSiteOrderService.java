@@ -20,4 +20,15 @@ public class OnSiteOrderService implements OrderService {
     public void onlineOrderPayment(int foodPrice) {
         //Empty Body!
     }
+
+    @Override
+    public void onPhoneOrderRegister(String customerName) {
+        //Empty Body!
+    }
+
+    @Override
+    public void onPhoneOrderPayment(int foodPrice) {
+        //Empty Body!
+    }
+    
 }

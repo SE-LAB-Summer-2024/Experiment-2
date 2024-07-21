@@ -54,62 +54,229 @@
 <p><strong>۱</strong></p>
 </td>
 <td width="198">
-<p>MessageService</p>
+<p>OrderService</p>
 </td>
 <td width="141">
-<p>افزودن تابع ارسال پیام تلگرامی</p>
+<p>افزودن تابع جدید</p>
 </td>
 <td width="292">
-<p>افزودن یک تابع void با عنوان sendTelegramMessage</p>
+<p>افزودن یک تابع به نام onPhoneOrderRegister برای ثبت سفارشات تلفنی در واسط</p>
 </td>
 </tr>
 
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>۲</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>OrderService</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>افزودن یک تابع جدید</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>افزودن یک تابع به نام onPhoneOrderPayment برای پرداخت سفارشات تلفنی</p>
 </td>
 </tr>
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>۳</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>PhoneOrderService</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>ساخت یک کلاس جدید</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>یک کلاس برای پیاده سازی متود های phone</p>
 </td>
 </tr>
+
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>۴</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>PhoneOrderService</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>افزودن تابع جدید</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>افزودن یک تابع به نام onPhoneOrderRegister برای ثبت سفارشات تلفنی  </p>
 </td>
 </tr>
+
+<tr>
+<td width="64">
+<p><strong>۵</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>افزودن یک تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderPayment برای پرداخت سفارشات تلفنی</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۶</strong></p>
+</td>
+<td width="198">
+<p>OnlineOrderService</p>
+</td>
+<td width="141">
+<p>افزودن تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderRegister برای ثبت سفارشات تلفنی  </p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۷</strong></p>
+</td>
+<td width="198">
+<p>OnlineOrderService</p>
+</td>
+<td width="141">
+<p>افزودن یک تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderPayment برای پرداخت سفارشات تلفنی</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۸</strong></p>
+</td>
+<td width="198">
+<p>OnSiteOrderService</p>
+</td>
+<td width="141">
+<p>افزودن تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderRegister برای ثبت سفارشات تلفنی  </p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۹</strong></p>
+</td>
+<td width="198">
+<p>OnSiteOrderService</p>
+</td>
+<td width="141">
+<p>افزودن یک تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderPayment برای پرداخت سفارشات تلفنی</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۱۰</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>افزودن تابع جدید</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع onlineOrderRegister</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۱۱</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>افزودن یک تابع جدید</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع onSiteOrderPayment</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۱۲</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>افزودن تابع جدید</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع onSiteOrderRegister</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۱۳</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>افزودن یک تابع جدید</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع onlineOrderPayment</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۱۴</strong></p>
+</td>
+<td width="198">
+<p>Main</p>
+</td>
+<td width="141">
+<p>پیاده سازی منطق ثبت سفارش تلفنی </p>
+</td>
+<td width="292">
+<p>در قسمت اول باید سرویس تلفنی را به عنوان یک سرویس موجود نشان داده و اجازه انتخاب آن را بدهیم</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۱۵</strong></p>
+</td>
+<td width="198">
+<p>Main</p>
+</td>
+<td width="141">
+<p>پیاده سازی منطق پرداخت سفارش تلفنی </p>
+</td>
+<td width="292">
+<p>در قسمت بعدی باید اگر سرویس تلفنی انتخاب شد پرداخت آن انجام شود</p>
+</td>
+</tr>
+
 </tbody>
 </table>
 
-مجموع تعداد تغییرات: ..............
+مجموع تعداد تغییرات: ۱۵
 
 ### گام ۲: تحلیل و وارسی برنامه از منظر تحقق و یا عدم تحقق اصول SOLID
 در خصوص این برنامه‌ای که نوشته شده بود و شما یک قابلیت به آن اضافه کردید، بر اساس اصول SOLID موارد نقض و یا محقق شدن هر کدام از آن اصول را بیان کنید. در بیان موارد تحقق و نقض، علت تحقق و یا نقض را نیز به صورت کامل توضیح دهید:
@@ -214,6 +381,36 @@
 </td>
 <td>
 <p>&nbsp;</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۴</strong></p>
+</td>
+<td width="198">
+<p>OnlineOrderService</p>
+</td>
+<td width="141">
+<p>افزودن تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderRegister برای ثبت سفارشات تلفنی  </p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۵</strong></p>
+</td>
+<td width="198">
+<p>OnlineOrderService</p>
+</td>
+<td width="141">
+<p>افزودن یک تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderPayment برای پرداخت سفارشات تلفنی</p>
 </td>
 </tr>
 </tbody>
