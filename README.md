@@ -384,35 +384,7 @@
 </td>
 </tr>
 
-<tr>
-<td width="64">
-<p><strong>۴</strong></p>
-</td>
-<td width="198">
-<p>OnlineOrderService</p>
-</td>
-<td width="141">
-<p>افزودن تابع جدید</p>
-</td>
-<td width="292">
-<p>افزودن یک تابع به نام onPhoneOrderRegister برای ثبت سفارشات تلفنی  </p>
-</td>
-</tr>
 
-<tr>
-<td width="64">
-<p><strong>۵</strong></p>
-</td>
-<td width="198">
-<p>OnlineOrderService</p>
-</td>
-<td width="141">
-<p>افزودن یک تابع جدید</p>
-</td>
-<td width="292">
-<p>افزودن یک تابع به نام onPhoneOrderPayment برای پرداخت سفارشات تلفنی</p>
-</td>
-</tr>
 </tbody>
 </table>
 
