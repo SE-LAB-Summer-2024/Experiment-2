@@ -54,58 +54,195 @@
 <p><strong>۱</strong></p>
 </td>
 <td width="198">
-<p>MessageService</p>
+<p>OrderService</p>
 </td>
 <td width="141">
-<p>افزودن تابع ارسال پیام تلگرامی</p>
+<p>افزودن تابع جدید</p>
 </td>
 <td width="292">
-<p>افزودن یک تابع void با عنوان sendTelegramMessage</p>
+<p>افزودن یک تابع به نام onPhoneOrderRegister برای ثبت سفارشات تلفنی در واسط</p>
 </td>
 </tr>
 
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>۲</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>OrderService</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>افزودن یک تابع جدید</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>افزودن یک تابع به نام onPhoneOrderPayment برای پرداخت سفارشات تلفنی</p>
 </td>
 </tr>
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>۳</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>PhoneOrderService</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>ساخت یک کلاس جدید</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>یک کلاس برای پیاده سازی متود های phone</p>
 </td>
 </tr>
+
 <tr>
 <td width="64">
-<p><strong>&nbsp;</strong></p>
+<p><strong>۴</strong></p>
 </td>
 <td width="198">
-<p>&nbsp;</p>
+<p>PhoneOrderService</p>
 </td>
 <td width="141">
-<p>&nbsp;</p>
+<p>افزودن تابع جدید</p>
 </td>
 <td width="292">
-<p>&nbsp;</p>
+<p>افزودن یک تابع به نام onPhoneOrderRegister برای ثبت سفارشات تلفنی  </p>
 </td>
 </tr>
+
+<tr>
+<td width="64">
+<p><strong>۵</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>افزودن یک تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderPayment برای پرداخت سفارشات تلفنی</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۶</strong></p>
+</td>
+<td width="198">
+<p>OnlineOrderService</p>
+</td>
+<td width="141">
+<p>افزودن تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderRegister برای ثبت سفارشات تلفنی  </p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۷</strong></p>
+</td>
+<td width="198">
+<p>OnlineOrderService</p>
+</td>
+<td width="141">
+<p>افزودن یک تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderPayment برای پرداخت سفارشات تلفنی</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۸</strong></p>
+</td>
+<td width="198">
+<p>OnSiteOrderService</p>
+</td>
+<td width="141">
+<p>افزودن تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderRegister برای ثبت سفارشات تلفنی  </p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۹</strong></p>
+</td>
+<td width="198">
+<p>OnSiteOrderService</p>
+</td>
+<td width="141">
+<p>افزودن یک تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderPayment برای پرداخت سفارشات تلفنی</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۱۰</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>افزودن تابع جدید</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع onlineOrderRegister</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۱۱</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>افزودن یک تابع جدید</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع onSiteOrderPayment</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۱۲</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>افزودن تابع جدید</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع onSiteOrderRegister</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۱۳</strong></p>
+</td>
+<td width="198">
+<p>PhoneOrderService</p>
+</td>
+<td width="141">
+<p>افزودن یک تابع جدید</p>
+</td>
+<td width="292">
+<p>پیاده سازی تابع onlineOrderPayment</p>
+</td>
+</tr>
+
 </tbody>
 </table>
 
@@ -214,6 +351,36 @@
 </td>
 <td>
 <p>&nbsp;</p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۴</strong></p>
+</td>
+<td width="198">
+<p>OnlineOrderService</p>
+</td>
+<td width="141">
+<p>افزودن تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderRegister برای ثبت سفارشات تلفنی  </p>
+</td>
+</tr>
+
+<tr>
+<td width="64">
+<p><strong>۵</strong></p>
+</td>
+<td width="198">
+<p>OnlineOrderService</p>
+</td>
+<td width="141">
+<p>افزودن یک تابع جدید</p>
+</td>
+<td width="292">
+<p>افزودن یک تابع به نام onPhoneOrderPayment برای پرداخت سفارشات تلفنی</p>
 </td>
 </tr>
 </tbody>
