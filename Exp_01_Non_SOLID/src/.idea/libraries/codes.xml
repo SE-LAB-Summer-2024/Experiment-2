@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="codes">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/PaymentServices/codes.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
