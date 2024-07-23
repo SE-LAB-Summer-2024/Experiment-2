@@ -12,7 +12,6 @@ public class Main {
         String customerName;
         Order order;
         int customerAnswerForOrder=0;
-        int customerAnswerForPaymentMethod=0;
 
         System.out.println("Enter Customer Name : ");
         customerName = scanner.nextLine();
@@ -30,35 +29,27 @@ public class Main {
             } else if(customerAnswerForOrder==2){
                 order.addItem(new Food("pizza",2000));
             }
-
-
         }
 
-        //Step2 : Select Payment Method
+        //Step2: Select Payment Method
         System.out.println("Enter Your Payment Method (1 for online and 2 for on-site and 3 for phone):");
-        customerAnswerForPaymentMethod = scanner.nextInt();
+        int customerAnswerForPaymentMethod = scanner.nextInt();
         if(customerAnswerForPaymentMethod==1){
             orderService = new OnlineOrderService();
-            orderService.onlineOrderRegister(customerName);
         } else if(customerAnswerForPaymentMethod==2){
             orderService = new OnSiteOrderService();
-            orderService.onSiteOrderRegister(customerName);
         } else if(customerAnswerForPaymentMethod==3){
             orderService = new PhoneOrderService();
-            orderService.onPhoneOrderRegister(customerName);
         }
+        assert orderService != null;
 
-        //Step3 : pay price
+        orderService.orderRegister(customerName);
+
+        //Step3: pay price
         System.out.println("Pay Price:");
-        if(orderService instanceof OnlineOrderService){
-            orderService.onlineOrderPayment(order.getTotalPrice());
-        } else if(orderService instanceof OnSiteOrderService){
-            orderService.onSiteOrderPayment(order.getTotalPrice());
-        } else if(orderService instanceof PhoneOrderService){
-            orderService.onPhoneOrderPayment(order.getTotalPrice());
-        }
+        orderService.orderPayment(order.getTotalPrice());
 
-        //Finally Print Bill
+        //Finally, Print Bill
         System.out.println(order);
 
 
